@@ -1,0 +1,28 @@
+.auth-page {
+    width: 100%;
+    height: calc(100vh - 55px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    background: white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 300px;
+}
+
+.auth-container form .form-inputs input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.auth-container form .auth-error {
+    color: red;
+}
+
+.auth-container form .form-submit {
+    display: flex;
+    justify-content: end;
+}
